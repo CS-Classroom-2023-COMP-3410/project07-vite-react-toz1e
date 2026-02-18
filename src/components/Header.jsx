@@ -10,7 +10,8 @@ function Header({ currentPage, onNavigate }) {
     const navItems = [
         { id: 'home', label: 'Home' },
         { id: 'products', label: 'Products' },
-        { id: 'profile', label: 'Profile' }
+        { id: 'profile', label: 'Profile' },
+        { id: 'cart', label: 'Cart' }   // ✅ ADDED
     ];
 
     return (
